@@ -14,7 +14,7 @@ class Person1{//커스텀 자료형
     static char gender = '여';
 }
 public class MemEx01 {
-    public void main(String[] args) {
+    public static void main(String[] args) {
         System.out.println(Person1.age);
         System.out.println(Person1.gender);
     }
