@@ -2,7 +2,7 @@ package ex02.Programming;
 
 import java.util.Scanner;
 
-public class ex02 {
+public class Ex02 {
     public static void main(String[] args) {
         System.out.print("마일을 입력하시오: ");
         Scanner sc = new Scanner(System.in);

@@ -1,6 +1,6 @@
 package ex02.Programming;
 
-public class ex04 {
+public class Ex04 {
     public static void main(String[] args) {
         System.out.println("P\t\t"+"Q\t\t"+"AND\t\t"+"OR\t\t"+"XOR\t\t");
         boolean p=true;

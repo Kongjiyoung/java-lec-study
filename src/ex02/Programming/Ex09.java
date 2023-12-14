@@ -1,7 +1,7 @@
 package ex02.Programming;
 
 
-public class ex09 {
+public class Ex09 {
     public static void main(String[] args) {
 
         int x=127;

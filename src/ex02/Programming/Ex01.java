@@ -2,7 +2,7 @@ package ex02.Programming;
 
 import java.util.Scanner;
 
-public class ex01 {
+public class Ex01 {
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
         System.out.print("오렌지 개수를 입력하시오: ");
