@@ -13,6 +13,15 @@ public class Ex02 {
         int num1=sc.nextInt();
         int num2=sc.nextInt();
 
-        System.out.print(num1+num2);
+        if(cal=='*') {
+            System.out.print(num1 +" * "+ num2+" = "+num1*num2);
+        } else if (cal=='/') {
+            System.out.print(num1 +" / "+ num2+" = "+num1/num2);
+        } else if (cal=='+') {
+            System.out.print(num1 +" + "+ num2+" = "+(num1+num2));
+        } else if (cal=='-') {
+            System.out.print(num1 +" - "+ num2+" = "+(num1-num2));
+        }
+
     }
 }
