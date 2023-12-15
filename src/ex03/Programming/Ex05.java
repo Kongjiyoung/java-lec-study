@@ -10,12 +10,12 @@ public class Ex05 {
             }
         }
 
-        int six=6;
+
         int j;
         for (int i=1; i<=6; i++){
-            j=six-i;
-            if(j!=0) {
-                System.out.print("(" + i + "," + (six - i) + ") , ");
+            j=6-i;
+            if(j!=0 && i+j==6) {
+                System.out.print("(" + i + "," + j + ") , ");
             }
 
         }
