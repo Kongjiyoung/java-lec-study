@@ -18,7 +18,7 @@ public class Lotto01 {
                 for (int j = 0; j < i;j++) {
                     if(arr[j]==num){
                         num=r.nextInt(6)+1;
-                        j=-1;0
+                        j=-1;
                     }
                 }
                 arr[i]=num;
