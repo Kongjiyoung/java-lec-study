@@ -1,4 +1,4 @@
-package Ex03.InsertionSort;
+package ex03.InsertionSort;
 
 public class InsertionSort02 {
     public static void main(String[] args) {
