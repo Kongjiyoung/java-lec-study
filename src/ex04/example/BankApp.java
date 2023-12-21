@@ -3,7 +3,7 @@ package ex04.example;
 import ex04.example.model.Account;
 import ex04.example.model.User;
 
-public class BankApp {
+ public class BankApp {
     public static void main(String[] args) {
         // 고객 2명 만들기
         User u1 = new User(1, "ssar", "ssar@nate.com");
