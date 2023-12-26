@@ -26,7 +26,7 @@ class Employee extends Person{
     }
 }
 
-public class EmployeeTest {
+public class EmployeeTest01 {
     public static void main(String[] args) {
         Employee e =new Employee("Kim", "20210001");
         Employee e1 = new Employee("Kim");
