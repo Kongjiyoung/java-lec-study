@@ -2,7 +2,7 @@ package ex06;
 
 class Shape01{
     public void draw(){
-        System.out.println("Shape");
+        //System.out.println("Shape");
     }
 }
 
