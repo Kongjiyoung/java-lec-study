@@ -11,13 +11,17 @@ public class StarApp {
         u1.attack();
         u2.attack();
     }
+    public static void gameStart1(Zealot u1){//Zealot z1=new Zealot으로 만들어도 여기서 Protoss를 가르키기 때문에 u+
+        // 1 zealot을 가르키다가 Protoss로 바뀐다
+        u1.shield();
+    }
 
     public static void main(String[] args) {
-        Protoss z1 = new Zealot("z1"); //[Zealot, Protoss]
-        Protoss d1 = new Dragoon("d1");//[Dragoon, Protoss]
-        Protoss z2 = new Zealot("z2");//[Zealot, Protoss]
+        Zealot z1 = new Zealot("z1"); //[Zealot, Protoss]
+        Dragoon d1 = new Dragoon("d1");//[Dragoon, Protoss]
+        Zealot z2 = new Zealot("z2");//[Zealot, Protoss]
 
-
+        gameStart1(z1);
         gameStart(z1,d1);
         gameStart(d1,z1);
         gameStart(z2,z1);

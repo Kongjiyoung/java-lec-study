@@ -11,4 +11,8 @@ public class Zealot extends Protoss{
         System.out.println("질럿이 공격합니다.");
     }
 
+    public void shield(){
+        System.out.println("방어");
+    }
+
 }
