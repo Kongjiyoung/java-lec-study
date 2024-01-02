@@ -1,14 +1,14 @@
-package ex04.example03.model;
+package ex08.example03.model;
 
 public class User {
-    final private int id;
+    private final int id;
     private String name;
-    private String phoneNumber;
+    private String email;
 
-    public User(int id, String name, String phoneNumber) {
+    public User(int id, String name, String email) {
         this.id = id;
         this.name = name;
-        this.phoneNumber = phoneNumber;
+        this.email = email;
     }
 
     @Override
@@ -16,7 +16,7 @@ public class User {
         return "User{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
-                ", phoneNumber='" + phoneNumber + '\'' +
+                ", email='" + email + '\'' +
                 '}';
     }
 }

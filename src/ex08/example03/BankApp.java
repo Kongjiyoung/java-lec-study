@@ -1,7 +1,8 @@
-package ex04.example03;
+package ex08.example03;
 
-import ex04.example03.model.User;
-import ex04.example03.model.Account;
+import ex08.example03.BankAppService;
+import ex08.example03.model.User;
+import ex08.example03.model.Account;
 
 public class BankApp {
     public static void main(String[] args) {
@@ -20,7 +21,12 @@ public class BankApp {
         double amount=10000L;
 
         //계좌이체
-        부산점.계좌이체(billAccount, jiyoungAccount, amount);
+
+        try {
+            부산점.계좌이체(billAccount, jiyoungAccount, amount);
+        } catch (RuntimeException e) {
+            throw new RuntimeException(e);
+        }
         System.out.println(billAccount.toString());
         System.out.println(jiyoungAccount.toString());
     }
