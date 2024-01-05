@@ -10,6 +10,6 @@ public class Customor { //
 
     public void order(String menuName){ //메인한테 리턴할 필요가 없음, 고객이 가져야하니깐
         Coffee coffee = barista.makeCoffee();
-        System.out.println(coffee.name+"을 받았습니다");
+       // System.out.println(coffee.name+"을 받았습니다");
     }
 }
