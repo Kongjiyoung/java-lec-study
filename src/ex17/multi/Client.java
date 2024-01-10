@@ -11,7 +11,7 @@ public class Client {
     public static void main(String[] args) {
         try {
             //1. 소켓과 버퍼 만들기
-            Socket socket = new Socket("localhost", 20000);
+            Socket socket = new Socket("localhost", 5000);
             Scanner sc = new Scanner(System.in);
             PrintWriter pw = new PrintWriter(socket.getOutputStream(),true);
 

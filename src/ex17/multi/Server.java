@@ -30,7 +30,7 @@ public class Server {
                     }
 
                 }
-            });
+            }).start();
 
 
             //버퍼만들기 동기적실행(응답을 받으면 실행)
