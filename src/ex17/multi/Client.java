@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class Client {
     public static void main(String[] args) {
         try {
-            Socket socket = new Socket("127.0.0.1", 5000);
+            Socket socket = new Socket("127.0.0.1", 10000);
 
             Thread t1 = new Thread(() -> {
                 //T1

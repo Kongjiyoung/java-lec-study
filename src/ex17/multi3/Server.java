@@ -11,7 +11,7 @@ import java.util.Scanner;
 public class Server {
     public static void main(String[] args) {
         try {
-            ServerSocket serverSocket = new ServerSocket(5000);
+            ServerSocket serverSocket = new ServerSocket(10000);
             Socket socket = serverSocket.accept();
             System.out.println("클라이언트 : 소켓 생성 완료");
 
