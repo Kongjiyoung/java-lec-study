@@ -19,6 +19,9 @@ public class Client {
             new Thread(()->{
                 while(true){
                     String keyboardMsg = sc.nextLine();
+
+
+
                     pw.println(keyboardMsg);
                 }
             }).start();
